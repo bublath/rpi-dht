@@ -1,4 +1,4 @@
-# rpi-dht
+# RPi::DHT
 
 Perl interface to read alues from DHT11 and DHT22 sensors (in a more reliable way than the Raspberry kernel driver dht11).
 Based on the work of Steve Bertrand: https://github.com/stevieb9/rpi-dht11 and David Feng https://github.com/fengcda/DHT_Sensor_AVR_Library
