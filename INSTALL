@@ -1,0 +1,9 @@
+
+perl Makefile.PL
+make
+
+sudo make install
+or
+./build-deb.sh
+sudo RPi-DHT-perl_1.0-1_armhf.deb
+
