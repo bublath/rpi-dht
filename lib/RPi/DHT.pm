@@ -149,7 +149,7 @@ Optional: Bool. True, C<1> to enable debug output, False, C<0> to disable.
 
 Fetches both temperature and humidity data in one go. This is the recommended way of getting data, if you need both, since there is no way to read just temperature or humidity. So using the "temp" or "humidity" methods below in a row will actually trigger two sensor reads and increase the probability that one of them fails.
 
-Returns: Array of 2 signed floating point numbers.
+Returns: Array of 2 signed floating point numbers or Array of 2 "undef"s in case of read error
 
 Parameters:
 
@@ -162,7 +162,7 @@ Optional: Reading DHT sensors is not very reliable, so this module is doing 3 re
 
 Fetches the current temperature.
 
-Returns a signed floating point number with the temperature, in Celcius by default.
+Returns a signed floating point number with the temperature, in Celcius by default or "undef" in case of read error.
 
 Parameters:
 
@@ -174,7 +174,7 @@ Optional: Send in the string char C<'f'> to receive the temp in Farenheit.
 
 Fetches the current humidity.
 
-Returns the current humidity percentage as a floating point number.
+Returns the current humidity percentage as a floating point number or "undef" in case of read error.
 
 =head2 cleanup
 
