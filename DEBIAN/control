@@ -1,0 +1,7 @@
+Package: RPi-DHT-perl
+Version: 1.0
+Architecture: armhf
+Depends: wiringpi
+Maintainer: adimarantis@gmail.com
+Description: Perl module to access DHT11/12 sensors via GPIO
+
