@@ -101,7 +101,7 @@ Raspberry Pi
 	my $type = 11;
 	my $debug = 1;
 
-    my $env = RPi::DHT11->new($pin,$type,$debug);
+    my $env = RPi::DHT->new($pin,$type,$debug);
 
 	my ($temp,$humidity) = $env->read;
 
