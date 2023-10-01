@@ -13,6 +13,6 @@ Changes from Steve's work:
 
 Installation:
 
-perl Makefile.PL
-make
-sudo make install
+perl Makefile.PL <br>
+make <br>
+sudo make install <br>
