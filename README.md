@@ -11,3 +11,8 @@ Changes from Steve's work:
 - Limit number of retries so wrong configurations etc. don't block forever
 - Returning "undef" in case of erros
 
+Installation:
+
+perl Makefile.PL
+make
+sudo make install
